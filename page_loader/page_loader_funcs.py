@@ -3,9 +3,6 @@ import os
 from urllib.parse import urlparse
 
 
-URL = 'https://ru.hexlet.io/courses'
-
-
 def get_file_name(url: str):
     unpacked_url = urlparse(url)
     converted_char_to_list = list(unpacked_url.netloc + unpacked_url.path)
@@ -24,11 +21,12 @@ def get_save_path(path=os.getcwd()): # по умолчанию использу�
     return os.path.join(path, '')
 
 
-def donwload(url: str, path: str):
+def download(url: str, path: str):
     response = requests.get(url)
     path_to_saved_file = path + get_file_name(url)
     with open(path_to_saved_file, 'wb') as file: # wb - окрывает чтение/запись как бинарный
         file.write(response.content)
     return path_to_saved_file
 
-print(donwload(URL, get_save_path()))
+
+
