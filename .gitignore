@@ -4,6 +4,5 @@ dist/
 *.pyc
 .venv/
 .coverage
-coverage.xml
 .pytest_cache/
 .vim
