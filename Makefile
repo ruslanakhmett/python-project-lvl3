@@ -21,7 +21,6 @@ check:
 	make test
 
 build:
-	make check
 	poetry build
 
 

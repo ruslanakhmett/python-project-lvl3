@@ -27,6 +27,3 @@ def download(url: str, path: str):
     with open(path_to_saved_file, 'wb') as file: # wb - окрывает чтение/запись как бинарный
         file.write(response.content)
     return path_to_saved_file
-
-
-
