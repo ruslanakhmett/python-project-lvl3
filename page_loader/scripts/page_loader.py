@@ -1,11 +1,9 @@
-from page_loader.page_loader_funcs import download, get_save_path
+from page_loader.page_loader_funcs import download
 
 
-URL = 'https://ru.hexlet.io/courses'
-
-
+# URL = 'https://ru.hexlet.io/courses'
 def main():
-    download(URL, get_save_path())
+    download(URL)
 
 
 if __name__ == '__main__':

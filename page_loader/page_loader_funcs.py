@@ -21,9 +21,9 @@ def get_save_path(path=os.getcwd()):  # по умолчанию использу
     return os.path.join(path, '')
 
 
-def download(url: str, path: str):
+def download(url: str, path=get_save_path()):
     response = requests.get(url)
     path_to_saved_file = path + get_file_name(url)
     with open(path_to_saved_file, 'wb') as file:  # wb - окрывает чтение/запись как бинарный
         file.write(response.content)
-    return path_to_saved_file
+    return path_to_saved_file, response
