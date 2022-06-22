@@ -1,5 +1,4 @@
 import requests
-import os
 from urllib.parse import urlparse
 
 
@@ -15,10 +14,6 @@ def get_folder_name(url: str):
     converted_char_to_list = list(unpacked_url.netloc + unpacked_url.path)
     replaced_list = [item if item.isalpha() or item.isdigit() else '-' for item in converted_char_to_list]
     return ''.join(replaced_list) + '_files'
-
-
-def get_save_path(path=os.getcwd()):  # по умолчанию используется текущая папка
-    return os.path.join(path, '')
 
 
 def download(url: str, path: str):
