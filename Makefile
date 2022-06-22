@@ -23,7 +23,7 @@ check:
 build:
 	poetry build
 
-dep:
+deploy:
 	make build
 	make package-install
 	page_loader --output /hexlet/python-project-lvl3/ https://ru.hexlet.io/courses
