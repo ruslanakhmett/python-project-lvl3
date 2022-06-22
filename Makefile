@@ -23,5 +23,10 @@ check:
 build:
 	poetry build
 
+dep:
+	make build
+	make package-install
+	page_loader --output /hexlet/python-project-lvl3/ https://ru.hexlet.io/courses
+
 
 .PHONY: install test lint selfcheck check build page_loader
