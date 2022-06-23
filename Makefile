@@ -26,7 +26,7 @@ build:
 deploy:
 	make build
 	make package-install
-	page_loader --output /hexlet/python-project-lvl3/ https://ru.hexlet.io/courses
+	page_loader --output /hexlet/python-project-lvl3/tmp2 https://www.gov.uk
 
 
 .PHONY: install test lint selfcheck check build page_loader
