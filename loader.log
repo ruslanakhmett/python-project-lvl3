@@ -1,0 +1,169 @@
+INFO|2022-06-23 12:00:46,877|loader|download:22 soup done
+INFO|2022-06-23 12:00:46,878|loader|download:29 path with file name done
+INFO|2022-06-23 12:00:46,878|loader|download:33 directory name for downloadable resources done
+INFO|2022-06-23 12:00:46,878|loader|download:40 path to directory for downloadable resources done
+INFO|2022-06-23 12:00:46,880|data_processing|change_local_links:22 start link search loop...
+DEBUG|2022-06-23 12:00:46,886|data_processing|change_local_links:31 resource tag: <link href="/media/css/fontawesome.css?a484c9fd" rel="stylesheet"/>
+DEBUG|2022-06-23 12:00:46,886|data_processing|change_local_links:32 required attribute href and its value: /media/css/fontawesome.css?a484c9fd
+DEBUG|2022-06-23 12:00:46,886|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/css/fontawesome.css
+DEBUG|2022-06-23 12:00:46,886|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-css-fontawesome.css
+DEBUG|2022-06-23 12:00:46,886|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-css-fontawesome.css
+DEBUG|2022-06-23 12:00:47,505|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-css-fontawesome.css
+DEBUG|2022-06-23 12:00:47,584|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:47,584|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-css-fontawesome.css
+DEBUG|2022-06-23 12:00:47,585|data_processing|change_local_links:31 resource tag: <link href="/media/css/bootstrap-4.4.1.min.css" rel="stylesheet"/>
+DEBUG|2022-06-23 12:00:47,586|data_processing|change_local_links:32 required attribute href and its value: /media/css/bootstrap-4.4.1.min.css
+DEBUG|2022-06-23 12:00:47,586|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/css/bootstrap-4.4.1.min.css
+DEBUG|2022-06-23 12:00:47,586|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-css-bootstrap-4-4-1-min.css
+DEBUG|2022-06-23 12:00:47,587|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-css-bootstrap-4-4-1-min.css
+DEBUG|2022-06-23 12:00:47,857|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-css-bootstrap-4-4-1-min.css
+DEBUG|2022-06-23 12:00:48,236|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:48,238|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-css-bootstrap-4-4-1-min.css
+DEBUG|2022-06-23 12:00:48,239|data_processing|change_local_links:31 resource tag: <link href="/favicon.ico" rel="shortcut icon">
+<link href="/dyncss/base.css?a484c9fd" rel="stylesheet" type="text/css"/>
+</link>
+DEBUG|2022-06-23 12:00:48,240|data_processing|change_local_links:32 required attribute href and its value: /favicon.ico
+DEBUG|2022-06-23 12:00:48,240|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/favicon.ico
+DEBUG|2022-06-23 12:00:48,241|data_processing|change_local_links:50 resource file name done: www-postgresql-org-favicon.ico
+DEBUG|2022-06-23 12:00:48,241|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-favicon.ico
+DEBUG|2022-06-23 12:00:48,855|data_processing|change_local_links:64 resource content done: www-postgresql-org-favicon.ico
+DEBUG|2022-06-23 12:00:48,874|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:48,875|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-favicon.ico
+DEBUG|2022-06-23 12:00:48,876|data_processing|change_local_links:31 resource tag: <link href="/dyncss/base.css?a484c9fd" rel="stylesheet" type="text/css"/>
+DEBUG|2022-06-23 12:00:48,876|data_processing|change_local_links:32 required attribute href and its value: /dyncss/base.css?a484c9fd
+DEBUG|2022-06-23 12:00:48,877|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/dyncss/base.css
+DEBUG|2022-06-23 12:00:48,877|data_processing|change_local_links:50 resource file name done: www-postgresql-org-dyncss-base.css
+DEBUG|2022-06-23 12:00:48,877|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-dyncss-base.css
+DEBUG|2022-06-23 12:00:49,575|data_processing|change_local_links:64 resource content done: www-postgresql-org-dyncss-base.css
+DEBUG|2022-06-23 12:00:49,656|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:49,657|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-dyncss-base.css
+DEBUG|2022-06-23 12:00:49,658|data_processing|change_local_links:31 resource tag: <img alt="PostgreSQL Elephant Logo" class="logo" src="/media/img/about/press/elephant.png"/>
+DEBUG|2022-06-23 12:00:49,659|data_processing|change_local_links:32 required attribute src and its value: /media/img/about/press/elephant.png
+DEBUG|2022-06-23 12:00:49,659|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/img/about/press/elephant.png
+DEBUG|2022-06-23 12:00:49,660|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-img-about-press-elephant.png
+DEBUG|2022-06-23 12:00:49,660|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-img-about-press-elephant.png
+DEBUG|2022-06-23 12:00:49,875|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-img-about-press-elephant.png
+DEBUG|2022-06-23 12:00:49,987|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:49,988|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-img-about-press-elephant.png
+DEBUG|2022-06-23 12:00:49,989|data_processing|change_local_links:31 resource tag: <img alt="PostgreSQL Elephant Logo" src="/media/img/about/press/elephant.png"/>
+DEBUG|2022-06-23 12:00:49,990|data_processing|change_local_links:32 required attribute src and its value: /media/img/about/press/elephant.png
+DEBUG|2022-06-23 12:00:49,990|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/img/about/press/elephant.png
+DEBUG|2022-06-23 12:00:49,990|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-img-about-press-elephant.png
+DEBUG|2022-06-23 12:00:49,991|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-img-about-press-elephant.png
+DEBUG|2022-06-23 12:00:50,204|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-img-about-press-elephant.png
+DEBUG|2022-06-23 12:00:50,374|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:50,375|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-img-about-press-elephant.png
+DEBUG|2022-06-23 12:00:50,376|data_processing|change_local_links:31 resource tag: <img alt="PostgreSQL Community Event" class="community" src="/media/img/PostgreSQL_Badge1.svg"/>
+DEBUG|2022-06-23 12:00:50,377|data_processing|change_local_links:32 required attribute src and its value: /media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:50,377|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:50,377|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:50,378|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:50,604|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:50,644|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:50,645|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:50,646|data_processing|change_local_links:31 resource tag: <img alt="PostgreSQL Community Event" class="community" src="/media/img/PostgreSQL_Badge1.svg"/>
+DEBUG|2022-06-23 12:00:50,646|data_processing|change_local_links:32 required attribute src and its value: /media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:50,646|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:50,646|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:50,647|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:51,265|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:51,291|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:51,292|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:51,292|data_processing|change_local_links:31 resource tag: <img alt="PostgreSQL Community Event" class="community" src="/media/img/PostgreSQL_Badge1.svg"/>
+DEBUG|2022-06-23 12:00:51,293|data_processing|change_local_links:32 required attribute src and its value: /media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:51,293|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:51,293|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:51,294|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:51,916|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:51,940|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:51,941|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:51,942|data_processing|change_local_links:31 resource tag: <img alt="PostgreSQL Community Event" class="community" src="/media/img/PostgreSQL_Badge1.svg"/>
+DEBUG|2022-06-23 12:00:51,942|data_processing|change_local_links:32 required attribute src and its value: /media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:51,942|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:51,943|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:51,943|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:52,537|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:52,562|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:52,563|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:52,563|data_processing|change_local_links:31 resource tag: <img alt="PostgreSQL Community Event" class="community" src="/media/img/PostgreSQL_Badge1.svg"/>
+DEBUG|2022-06-23 12:00:52,564|data_processing|change_local_links:32 required attribute src and its value: /media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:52,564|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:52,565|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:52,565|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:52,786|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:52,811|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:52,812|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:52,813|data_processing|change_local_links:31 resource tag: <img alt="PostgreSQL Community Event" class="community" src="/media/img/PostgreSQL_Badge1.svg"/>
+DEBUG|2022-06-23 12:00:52,813|data_processing|change_local_links:32 required attribute src and its value: /media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:52,814|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:52,814|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:52,814|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,436|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,467|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:53,467|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,468|data_processing|change_local_links:31 resource tag: <img alt="PostgreSQL Community Event" class="community" src="/media/img/PostgreSQL_Badge1.svg"/>
+DEBUG|2022-06-23 12:00:53,471|data_processing|change_local_links:32 required attribute src and its value: /media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,471|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,472|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,472|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,701|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,726|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:53,727|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,728|data_processing|change_local_links:31 resource tag: <img alt="PostgreSQL Community Event" class="community" src="/media/img/PostgreSQL_Badge1.svg"/>
+DEBUG|2022-06-23 12:00:53,728|data_processing|change_local_links:32 required attribute src and its value: /media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,728|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/img/PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,728|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,729|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,955|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,983|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:53,983|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-img-PostgreSQL_Badge1.svg
+DEBUG|2022-06-23 12:00:53,984|data_processing|change_local_links:31 resource tag: <img alt="@postgresql" src="/media/img/atpostgresql.png"/>
+DEBUG|2022-06-23 12:00:53,984|data_processing|change_local_links:32 required attribute src and its value: /media/img/atpostgresql.png
+DEBUG|2022-06-23 12:00:53,984|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/img/atpostgresql.png
+DEBUG|2022-06-23 12:00:53,985|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-img-atpostgresql.png
+DEBUG|2022-06-23 12:00:53,985|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-img-atpostgresql.png
+DEBUG|2022-06-23 12:00:54,609|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-img-atpostgresql.png
+DEBUG|2022-06-23 12:00:54,633|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:54,633|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-img-atpostgresql.png
+DEBUG|2022-06-23 12:00:54,634|data_processing|change_local_links:31 resource tag: <img alt="Git" src="/media/img/git.png"/>
+DEBUG|2022-06-23 12:00:54,635|data_processing|change_local_links:32 required attribute src and its value: /media/img/git.png
+DEBUG|2022-06-23 12:00:54,635|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/img/git.png
+DEBUG|2022-06-23 12:00:54,635|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-img-git.png
+DEBUG|2022-06-23 12:00:54,635|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-img-git.png
+DEBUG|2022-06-23 12:00:54,790|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-img-git.png
+DEBUG|2022-06-23 12:00:54,811|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:54,812|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-img-git.png
+DEBUG|2022-06-23 12:00:54,812|data_processing|change_local_links:31 resource tag: <script src="/media/js/jquery-3.4.1.slim.min.js"></script>
+DEBUG|2022-06-23 12:00:54,813|data_processing|change_local_links:32 required attribute src and its value: /media/js/jquery-3.4.1.slim.min.js
+DEBUG|2022-06-23 12:00:54,813|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/js/jquery-3.4.1.slim.min.js
+DEBUG|2022-06-23 12:00:54,813|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-js-jquery-3-4-1-slim-min.js
+DEBUG|2022-06-23 12:00:54,813|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-js-jquery-3-4-1-slim-min.js
+DEBUG|2022-06-23 12:00:55,004|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-js-jquery-3-4-1-slim-min.js
+DEBUG|2022-06-23 12:00:55,172|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:55,172|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-js-jquery-3-4-1-slim-min.js
+DEBUG|2022-06-23 12:00:55,174|data_processing|change_local_links:31 resource tag: <script src="/media/js/popper-1.16.0.min.js"></script>
+DEBUG|2022-06-23 12:00:55,174|data_processing|change_local_links:32 required attribute src and its value: /media/js/popper-1.16.0.min.js
+DEBUG|2022-06-23 12:00:55,175|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/js/popper-1.16.0.min.js
+DEBUG|2022-06-23 12:00:55,175|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-js-popper-1-16-0-min.js
+DEBUG|2022-06-23 12:00:55,176|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-js-popper-1-16-0-min.js
+DEBUG|2022-06-23 12:00:55,333|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-js-popper-1-16-0-min.js
+DEBUG|2022-06-23 12:00:55,391|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:55,392|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-js-popper-1-16-0-min.js
+DEBUG|2022-06-23 12:00:55,392|data_processing|change_local_links:31 resource tag: <script src="/media/js/bootstrap-4.4.1.min.js"></script>
+DEBUG|2022-06-23 12:00:55,396|data_processing|change_local_links:32 required attribute src and its value: /media/js/bootstrap-4.4.1.min.js
+DEBUG|2022-06-23 12:00:55,396|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/js/bootstrap-4.4.1.min.js
+DEBUG|2022-06-23 12:00:55,397|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-js-bootstrap-4-4-1-min.js
+DEBUG|2022-06-23 12:00:55,397|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-js-bootstrap-4-4-1-min.js
+DEBUG|2022-06-23 12:00:55,589|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-js-bootstrap-4-4-1-min.js
+DEBUG|2022-06-23 12:00:55,738|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:55,739|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-js-bootstrap-4-4-1-min.js
+DEBUG|2022-06-23 12:00:55,742|data_processing|change_local_links:31 resource tag: <script src="/media/js/main.js?a484c9fd"></script>
+DEBUG|2022-06-23 12:00:55,743|data_processing|change_local_links:32 required attribute src and its value: /media/js/main.js?a484c9fd
+DEBUG|2022-06-23 12:00:55,744|data_processing|change_local_links:43 resource URL done: https://www.postgresql.org/media/js/main.js
+DEBUG|2022-06-23 12:00:55,744|data_processing|change_local_links:50 resource file name done: www-postgresql-org-media-js-main.js
+DEBUG|2022-06-23 12:00:55,744|data_processing|change_local_links:57 resource path done: /hexlet/python-project-lvl3/tmp/www-postgresql-org_files/www-postgresql-org-media-js-main.js
+DEBUG|2022-06-23 12:00:55,913|data_processing|change_local_links:64 resource content done: www-postgresql-org-media-js-main.js
+DEBUG|2022-06-23 12:00:55,930|data_processing|change_local_links:70 saving resource in file done
+DEBUG|2022-06-23 12:00:55,930|data_processing|change_local_links:76 local link done: www-postgresql-org_files/www-postgresql-org-media-js-main.js
+INFO|2022-06-23 12:00:55,945|loader|download:52 change links done
+INFO|2022-06-23 12:00:55,946|loader|download:56 saving page with new local links done

@@ -1,6 +1,6 @@
 import argparse
 import os
-from page_loader.download import download
+from page_loader.loader import download
 
 # URL = 'https://www.gov.uk'
 # path = '/hexlet/python-project-lvl3/tmp'

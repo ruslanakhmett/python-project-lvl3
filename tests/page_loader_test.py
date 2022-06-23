@@ -1,22 +1,25 @@
 import tempfile
 import requests_mock
-from page_loader.page_loader_funcs import download, get_file_name, get_folder_name, get_response, get_url_from_local_link, save_content 
 import pytest
 import os
 import filecmp
+from page_loader.names_processing import get_file_name, get_directory_name
+from page_loader.url_processing import get_response, get_url_from_local_link
+from page_loader.loader import download
+from page_loader.data_processing import save_content
 
 
 TEST_URL = 'https://ru.hexlet.io/courses'
 FILE_NAME = 'ru-hexlet-io-courses.html'
-FOLDER_NAME = 'ru-hexlet-io-courses_files'
+DIRECTORY_NAME = 'ru-hexlet-io-courses_files'
 
 
 def test_get_file_name():
     assert FILE_NAME == get_file_name(TEST_URL)
 
 
-def test_get_folder_name():
-    assert FOLDER_NAME == get_folder_name(TEST_URL)
+def test_get_directory_name():
+    assert DIRECTORY_NAME == get_directory_name(TEST_URL)
 
 
 def test_lite_download():
@@ -57,7 +60,7 @@ def test_get_url_from_local_link(link, correct_value):
             (
                 'https://rossaprimavera.ru/static/files/444af5503827.jpg'
             ),
-            'tests/fixtures/444af5503827.jpeg',
+            'tests/fixtures/test_img.jpeg',
         ),
     ],
 )
