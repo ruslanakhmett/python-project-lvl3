@@ -9,3 +9,6 @@ coverage.xml
 .pytest_cache/
 .vim
 tmp
+draft.py
+draft_folder
+.vscode

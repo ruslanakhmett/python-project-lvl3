@@ -2,8 +2,7 @@ import argparse
 import os
 from page_loader.loader import download
 
-# URL = 'https://www.gov.uk'
-# path = '/hexlet/python-project-lvl3/tmp'
+
 DEFAULT_PATH = os.path.join(os.getcwd(), '')
 
 

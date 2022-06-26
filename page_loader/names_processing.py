@@ -3,9 +3,9 @@ import re
 from urllib.parse import urlparse
 
 
-def get_name(page_url, link=False, directory=False):
-    domain_name = urlparse(page_url).netloc
-    if link:
+def get_name(page_url, link=False, directory=False):  # передаем исходную ссылку на страницу, link and directory - типа флаги, говорят для чего мы формируем име, для файла или для папки
+    domain_name = urlparse(page_url).netloc  # разбираем URL
+    if link:  # если формируем для файла
         root, extension = os.path.splitext(link)
         path_parts = urlparse(root).path
         extension = '.html' if extension == '' else extension
