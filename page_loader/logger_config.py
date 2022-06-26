@@ -7,7 +7,7 @@ configuring_dict = {
     'formatters': {
         'std_format': {
             'format':
-                '{levelname}|{asctime}|{module}|{funcName}:{lineno} {message}',
+                '{levelname} - {asctime} - Module:{module} - Function:{funcName} Line:{lineno} - Message:"{message}"',
                 'style': '{',
         },
     },
@@ -17,7 +17,7 @@ configuring_dict = {
             'class': 'logging.FileHandler',
             'level': 'DEBUG',
             'formatter': 'std_format',
-            'filename': 'loader.log',
+            'filename': 'page_loader.log',
             'mode': 'w',
         },
     },
