@@ -26,6 +26,6 @@ build:
 deploy:
 	make build
 	make package-install
-	page_loader --output /hexlet/python-project-lvl3/tmp https://www.gov.uk
+	page_loader --output /hexlet/python-project-lvl3/tmp https://www.gov.uk/
 
 .PHONY: install test lint selfcheck check build page_loader deploy test-coverage

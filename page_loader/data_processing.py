@@ -19,6 +19,8 @@ def change_local_links(page_url, soup, path_to_resource_dir):  # передае�
         if attr_and_value:  # если находим, разбираем по переменным
             attr, link = attr_and_value
             if url_processing.is_local_resource(page_url, link):
+                if 'data:' in link:
+                    continue
                 logger.debug(f'Resource tag: {tag}')
                 logger.debug(f'Required attribute {attr} and its value: {link}')
                 resource_url = url_processing.get_url_from_local_link(page_url, link)  # формируем ссылку на ресурс из локальной в полную
@@ -26,7 +28,7 @@ def change_local_links(page_url, soup, path_to_resource_dir):  # передае�
                 logger.debug(f'Resource file name OK: {resource_file_name}')
                 resource_path = paths_processing.make_path(path_to_resource_dir, resource_file_name)  # формируем путь для сохранения файла
                 logger.debug(f'Resource path OK: {resource_path}')
-                resource_content = url_processing.get_response(resource_url, content_type='content')  # запрос на скачивание контента
+                resource_content = url_processing.get_response(resource_url, content_type='content')  # скачиваем контент
                 logger.debug(f'Resource content OK: {resource_file_name}')
                 save_content(resource_path, resource_file_name, resource_content)  # сохраняем контент
                 logger.debug('Saving resource in file OK')
