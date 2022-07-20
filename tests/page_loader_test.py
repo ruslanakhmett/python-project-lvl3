@@ -38,8 +38,8 @@ def test_lite_download():
 так что функция test_get_url_from_local_link будет работать три раза, используя их по очереди"""
 
 
-@pytest.mark.parametrize('link, correct_value',
-                       [('/assets/application.css', 'https://ru.hexlet.io/assets/application.css'),
+@pytest.mark.parametrize('link, correct_value', [
+                        ('/assets/application.css', 'https://ru.hexlet.io/assets/application.css'),
                         ('/courses', 'https://ru.hexlet.io/courses'),
                         ('/assets/professions/nodejs.png', 'https://ru.hexlet.io/assets/professions/nodejs.png')])
 def test_get_url_from_local_link(link, correct_value):
@@ -81,11 +81,10 @@ def test_download(test_html, expect_test_html):
 
         assert page == expect_test_html
 
+
 def test_page_load():
     with tempfile.TemporaryDirectory() as tmpdirname:
         assert not os.listdir(tmpdirname)
         output_file_path = download(TEST_URL, tmpdirname)
         html_file_path = os.path.join(tmpdirname, FILE_NAME)
         assert output_file_path == html_file_path
-
-

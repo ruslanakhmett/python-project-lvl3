@@ -14,7 +14,7 @@ DEFAULT_PATH = os.path.join(os.getcwd(), '')
 
 def get_parser():
     parser = argparse.ArgumentParser(usage='page-loader [-h] [-o OUTPUT] url',
-        description='Download html page')
+                                     description='Download html page')
     parser.add_argument('-o', '--output', type=str, help='Download path', default=DEFAULT_PATH,)
     parser.add_argument('url', type=str, help='URL')
     return parser
@@ -26,7 +26,7 @@ def main():
         path_to_saved_file = download(args.url, args.output)
     except Exception as error:
         logger.error(error)
-        print(f'Unexpected error! For additional info see page_loader.log')
+        print('Unexpected error! For additional info see page_loader.log')
         sys.exit(1)
     message = f'Saved to: {path_to_saved_file}'
     print(message)
