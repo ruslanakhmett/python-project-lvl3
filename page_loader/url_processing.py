@@ -16,8 +16,8 @@ def get_response(url, content_type='text'):  # noqa: C901
     try:  # noqa: WPS229
         response = requests.get(url)
         response.raise_for_status()  # проверяется успешность ответа, если плохой ответ то выпадет исключение
-    # except requests.exceptions.ConnectionError as err:
-    #     logger.exception(err)
+    except requests.exceptions.ConnectionError as err:
+        logger.exception(err)
 
     # except requests.exceptions.HTTPError as err:
     #     logger.exception(err)
