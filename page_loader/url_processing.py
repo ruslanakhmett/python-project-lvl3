@@ -18,15 +18,12 @@ def get_response(url, content_type='text'):  # noqa: C901
         response.raise_for_status()  # проверяется успешность ответа, если плохой ответ то выпадет исключение
     except requests.exceptions.ConnectionError as err:
         logger.exception(err)
-        raise SystemExit('Connection error! Check your network connection and try again.')
 
     except requests.exceptions.HTTPError as err:
         logger.exception(err)
-        raise SystemExit(err)
 
     except requests.exceptions.RequestException as err:
         logger.exception(err)
-        raise SystemExit(f'Something went wrong while loading page: {url}')
 
     if content_type == 'text':
         return response.text
@@ -44,7 +41,6 @@ def get_chunk(response):
         yield from response.iter_content(chunk_size=CHUNK_SIZE)
     except requests.exceptions.RequestException as err:
         logger.exception(err)
-        raise SystemExit(f'Can not download resource {response.url}')
 
 
 def get_url_from_local_link(page_url, link):
