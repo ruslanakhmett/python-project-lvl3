@@ -7,25 +7,24 @@ package-install:
 lint:
 	poetry run flake8
 
-page_loader:
-	poetry run page_loader
+page-loader:
+	poetry run page-loader
 
 test:
 	poetry run pytest
 
 test-coverage:
-	poetry run pytest --cov=page_loader --cov-report xml
+	poetry run pytest --cov=page_loader/ tests/ --cov-report xml
 
-check:
-	make lint
-	make test
+check: selfcheck lint test
 
 build:
+	rm -rf dist
 	poetry build
 
 deploy:
 	make build
 	make package-install
-	page_loader --output /Users/ruslan/Desktop/python-project-lvl3/tmp https://www.gov.uk/
+	page-loader --output /Users/ruslan/Desktop/python-project-lvl3/tmp https://www.gov.uk/
 
 .PHONY: install test lint selfcheck check build page_loader deploy test-coverage
