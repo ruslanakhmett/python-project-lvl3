@@ -6,7 +6,7 @@ import filecmp
 from page_loader.names_processing import get_file_name, get_directory_name
 from page_loader.url_processing import get_response, get_url_from_local_link
 from page_loader.data_processing import save_content
-from page_loader.loader import download
+from page_loader import download
 
 
 TEST_URL = 'https://ru.hexlet.io/courses'
