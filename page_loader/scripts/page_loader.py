@@ -13,7 +13,8 @@ DEFAULT_PATH = os.path.join(os.getcwd(), '')
 
 
 def get_parser():
-    parser = argparse.ArgumentParser(description='Page loader')
+    parser = argparse.ArgumentParser(usage='page-loader [-h] [-o OUTPUT] url',
+        description='Download html page')
     parser.add_argument('-o', '--output', type=str, help='Download path', default=DEFAULT_PATH,)
     parser.add_argument('url', type=str, help='URL')
     return parser
