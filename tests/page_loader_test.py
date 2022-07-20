@@ -80,3 +80,10 @@ def test_download(test_html, expect_test_html):
                 page = file.read()
 
         assert page == expect_test_html
+
+def test_page_load():
+    with tempfile.TemporaryDirectory() as tmpdirname:
+        assert not os.listdir(tmpdirname)
+        output_file_path = download(TEST_URL, tmpdirname)
+        html_file_path = os.path.join(tmpdirname, FILE_NAME)
+        assert str(output_file_path) == str(html_file_path)

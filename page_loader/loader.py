@@ -22,4 +22,4 @@ def download(page_url: str, output_path: str) -> str:  # передаем арг
     logger.info('Change links OK')
     data_processing.save_page(path_to_file, html_with_local_links)  # сохраняем итоговый html
     logger.info('Saving page with new local links OK')
-    return path_to_file
+    return str(path_to_file)
