@@ -1,7 +1,13 @@
 import argparse
 import os
+import sys
 from page_loader.loader import download
+import logging.config
+from page_loader.logger_config import configuring_dict
 
+
+logging.config.dictConfig(configuring_dict)
+logger = logging.getLogger('app_logger')
 
 DEFAULT_PATH = os.path.join(os.getcwd(), '')
 
@@ -18,9 +24,13 @@ def main():
     try:
         path_to_saved_file = download(args.url, args.output)
     except Exception as error:
-        print(error)
-    print('Saved to:')
-    print(path_to_saved_file)
+        logger.error(error)
+        print(f'Unexpected error! For additional info see page_loader.log')
+        sys.exit(1)
+    message = f'Saved to: {path_to_saved_file}'
+    print(message)
+    logger.info(message)
+    sys.exit(0)
 
 
 if __name__ == '__main__':

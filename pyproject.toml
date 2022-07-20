@@ -1,9 +1,8 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "."
-authors = ["Me"]
-license = "."
+description = "page-loader"
+authors = ["ruslan_akhm"]
 packages = [
   { include = "page_loader" },
 ]
