@@ -19,12 +19,6 @@ def get_response(url, content_type='text'):  # noqa: C901
     except requests.exceptions.ConnectionError as err:
         logger.exception(err)
 
-    # except requests.exceptions.HTTPError as err:
-    #     logger.exception(err)
-
-    # except requests.exceptions.RequestException as err:
-    #     logger.exception(err)
-
     if content_type == 'text':
         return response.text
     if content_type == 'content':
@@ -38,7 +32,7 @@ def get_soup(page_url):
 
 def get_chunk(response):
     try:
-        yield from response.iter_content(chunk_size=CHUNK_SIZE)
+        yield from response.iter_content(chunk_size=CHUNK_SIZE) #елдит итерируемую последовательность
     except requests.exceptions.RequestException as err:
         logger.exception(err)
 
