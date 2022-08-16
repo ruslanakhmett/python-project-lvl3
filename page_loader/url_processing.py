@@ -32,7 +32,7 @@ def get_soup(page_url):
 
 def get_chunk(response):
     try:
-        yield from response.iter_content(chunk_size=CHUNK_SIZE) #елдит итерируемую последовательность
+        yield from response.iter_content(chunk_size=CHUNK_SIZE)  # елдит итерируемую последовательность
     except requests.exceptions.RequestException as err:
         logger.exception(err)
 
