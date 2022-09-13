@@ -1,22 +1,29 @@
 import argparse
+import logging.config
 import os
 import sys
-from page_loader.page_loader import download
-import logging.config
-from page_loader.logger_config import configuring_dict
 
+from page_loader.logger_config import configuring_dict
+from page_loader.page_loader import download
 
 logging.config.dictConfig(configuring_dict)
-logger = logging.getLogger('app_logger')
+logger = logging.getLogger("app_logger")
 
-DEFAULT_PATH = os.path.join(os.getcwd(), '')
+DEFAULT_PATH = os.path.join(os.getcwd(), "")
 
 
 def get_parser():
-    parser = argparse.ArgumentParser(usage='page-loader [-h] [-o OUTPUT] url',
-                                     description='Download html page')
-    parser.add_argument('-o', '--output', type=str, help='Download path', default=DEFAULT_PATH,)
-    parser.add_argument('url', type=str, help='URL')
+    parser = argparse.ArgumentParser(
+        usage="page-loader [-h] [-o OUTPUT] url", description="Download html page"
+    )
+    parser.add_argument(
+        "-o",
+        "--output",
+        type=str,
+        help="Download path",
+        default=DEFAULT_PATH,
+    )
+    parser.add_argument("url", type=str, help="URL")
     return parser
 
 
@@ -26,13 +33,13 @@ def main():
         path_to_saved_file = download(args.url, args.output)
     except Exception as error:
         logger.error(error)
-        print('Unexpected error! For additional info see page_loader.log')
+        print("Unexpected error! For additional info see page_loader.log")
         sys.exit(1)
-    message = f'Saved to: {path_to_saved_file}'
+    message = f"Saved to: {path_to_saved_file}"
     print(message)
     logger.info(message)
     sys.exit(0)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
